@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --primary:#000000;
+    --secondry:#ffc554;
+}
+
+.primary-clr {
+    background-color: var(--primary);
+}
+
+.mono {
+    font-family: monospace;
+}
+
+.hero {
+    height: 100%;
+}
