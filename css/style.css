@@ -8,6 +8,7 @@
 :root {
     --primary:#000000;
     --secondry:#ffc554;
+    --purple:#0b1727;
 }
 
 .primary-clr {
@@ -20,4 +21,13 @@
 
 .hero {
     height: 100%;
+}
+
+.container-fluid {
+    margin: 0 !important;
+}
+
+.grocery {
+    background-color: var(--purple);
+    color: white;
 }
