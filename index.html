@@ -7,6 +7,7 @@
   <title>Dilkhush</title>
   <link href="/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/css/style.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
@@ -20,7 +21,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav m-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -54,29 +55,31 @@
             </li>
           </ul>
         </div>
+        <button class="btn btn-outline-primary">btn</button>
+
       </div>
     </nav>
   </div>
 
   <div class="container-fluid my-5 py-5 border hero border">
     <div class="row">
-      <div class="col-lg-3 col-12 border">hii</div>
+      <div class="col-lg-3 col-12 border" data-aos="fade-right">hii</div>
       <div class="col-lg-9 col-12 border">
         <div class="row">
-          <div class="col-12">
-            <p class="fs-1 px-5 text-center">
+          <div class="col-12 ">
+            <p class="fs-1 pt-5 px-5 text-center" data-aos="fade-left">
               are you <b>ready for the</b> amazing <b>experince</b> in
               <b>grocery shopping...</b>
             </p>
           </div>
           <div class="col-12">
-            <p class="mono text-center px-5">
+            <p class="mono text-center pb-5 px-5">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Consequatur, eligendi mollitia commodi animi ullam suscipit
               quod! Voluptatibus sint voluptates unde.
             </p>
           </div>
-          <div class="col-12">
+          <div class="col-12" data-aos="fade-up">
             <div class="row d-flex justify-content-center">
               <div class="col-lg-2 col-md-2 col-sm-12 border">
                 <button class="btn btn-outline-primary w-100">
@@ -96,16 +99,16 @@
   </div>
 
   <div class="container">
-    <p class="mono text-center fs-4 fw-bolder">Products</p>
+    <p class="mono text-center fs-4 fw-bolder" data-aos="fade-up">Products</p>
   </div>
   <div class="container">
-    <h2 class="mono text-center fs-1 fw-bolder">Our Products</h2>
+    <h2 class="mono text-center fs-1 fw-bolder" data-aos="fade-up">Our Products</h2>
   </div>
 
-  <div class="container border my-5 py-5">slider</div>
+  <div class="container border my-5 py-5" data-aos="zoom-in">slider</div>
 
   <div class="container">
-    <h2 class="mono text-center fs-1 fw-bolder">Our Products</h2>
+    <h2 class="mono text-center fs-1 fw-bolder" data-aos="fade-up">Our Products</h2>
   </div>
 
   <div class="container">
@@ -821,5 +824,9 @@
   </div>
 </body>
 <script src="/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>
