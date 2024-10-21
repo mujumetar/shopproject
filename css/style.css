@@ -9,6 +9,11 @@
   --primary: #000000;
   --secondry: #ffc554;
   --purple: #0b1727;
+  --para: #7d8a9a;
+}
+
+.para {
+  color: var(--para);
 }
 
 .primary-clr {
@@ -32,8 +37,29 @@
   color: white;
 }
 
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 375px) {
   .nav-link {
     padding: 2px !important;
   }
 }
+
+.rotate {
+  animation: rotates infinite 2s linear;
+  -webkit-animation: rotates infinite 2s linear;
+}
+
+/* @keyframes rotates {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
