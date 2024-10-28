@@ -61,6 +61,16 @@
   flex-direction: column;
 }
 
+.anchor {
+  text-decoration: none;
+  color: var(--para);
+}
+
+.anchor:hover {
+  text-decoration: none;
+  color: white;
+}
+
 
 
 
