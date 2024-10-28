@@ -55,6 +55,30 @@
   -webkit-animation: rotates infinite 2s linear;
 }
 
+.full-h {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @keyframes rotates {
   from {
     transform: rotate(0deg);
